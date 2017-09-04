@@ -23,6 +23,10 @@
       "autoFix": true
     }
   },
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
   "dependencies": {
     "lodash": "^4.17.4"
   },
