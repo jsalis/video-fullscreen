@@ -1,6 +1,7 @@
 {
   "name": "video-fullscreen",
   "version": "1.0.0",
+  "description": "A cross-browser fullscreen API for HTML5 video players",
   "main": "src/index.js",
   "files": [
     "src",
@@ -8,7 +9,8 @@
   ],
   "keywords": [
     "video",
-    "fullscreen"
+    "fullscreen",
+    "html5"
   ],
   "scripts": {
     "lint": "eslint src test",
@@ -62,6 +64,6 @@
     "type": "git",
     "url": "https://github.com/jsalis/video-fullscreen.git"
   },
-  "author": "jsalis",
+  "author": "jsalis <johnsalis@live.com>",
   "license": "MIT"
 }
