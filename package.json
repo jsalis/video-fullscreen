@@ -2,9 +2,11 @@
   "name": "video-fullscreen",
   "version": "1.0.0",
   "description": "A cross-browser fullscreen API for HTML5 video players",
-  "main": "src/index.js",
+  "main": "dist/video-fullscreen.js",
+  "jsnext:main": "dist/video-fullscreen.module.js",
+  "module": "dist/video-fullscreen.module.js",
   "files": [
-    "src",
+    "dist",
     "README.md"
   ],
   "keywords": [
@@ -15,7 +17,8 @@
   "scripts": {
     "lint": "eslint src test",
     "test": "karma start --single-run --browsers PhantomJS",
-    "clean": "rimraf build",
+    "clean": "rimraf build dist",
+    "build": "rollup --config",
     "report-coverage": "cat ./build/coverage/lcov.info | codecov",
     "commitmsg": "validate-commit-msg",
     "release": "standard-version"
