@@ -1,6 +1,4 @@
 
-import find from 'lodash/find';
-
 /**
  * @type {Array} The list of all possible fullscreen APIs.
  */
@@ -53,7 +51,17 @@ const API_LIST = [
 function findSupported(apiList, document) {
 
 	let standardApi = apiList[0];
-	let supportedApi = find(apiList, (api) => api[1] in document);
+	let supportedApi = null;
+
+	for (let i = 0, len = apiList.length; i < len; i++) {
+
+		let api = apiList[ i ];
+
+		if (api[1] in document) {
+			supportedApi = api;
+			break;
+		}
+	}
 
 	if (Array.isArray(supportedApi)) {
 
