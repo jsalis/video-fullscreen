@@ -93,7 +93,7 @@ export function createFullscreen(apiList, document) {
 	return {
 
 		/**
-		 * Gets the raw mapping of the supported fullscreen API.
+		 * Gets the internal mapping of the browser supported fullscreen API.
 		 *
 		 * @returns {Object}
 		 */
@@ -103,7 +103,7 @@ export function createFullscreen(apiList, document) {
 		},
 
 		/**
-		 * Checks whether fullscreen is enabled in the document.
+		 * Checks whether fullscreen is enabled.
 		 *
 		 * @returns {Boolean}
 		 */
@@ -116,7 +116,7 @@ export function createFullscreen(apiList, document) {
 		},
 
 		/**
-		 * Gets the HTML element that is currently in fullscreen mode.
+		 * Gets the element that is currently in fullscreen mode.
 		 *
 		 * @returns {HTMLElement}
 		 */
