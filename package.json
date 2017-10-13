@@ -1,6 +1,6 @@
 {
   "name": "video-fullscreen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cross-browser fullscreen API for HTML5 video players",
   "main": "dist/video-fullscreen.js",
   "jsnext:main": "dist/video-fullscreen.module.js",
