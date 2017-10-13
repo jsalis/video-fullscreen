@@ -25,7 +25,7 @@ import fullscreen from 'video-fullscreen';
 
 Requests fullscreen.
 
-**el:HTMLElement** The element to make the request for. Defaults to the document element.
+**el:HTMLElement** The element to make the request for. Defaults to the document element. <br />
 **video:HTMLVideoElement** The video element to make the request for.
 
 #### `.exit()`
@@ -36,14 +36,14 @@ Exits fullscreen.
 
 Toggles fullscreen.
 
-**el:HTMLElement** The element to toggle. Defaults to the document element.
+**el:HTMLElement** The element to toggle. Defaults to the document element. <br />
 **video:HTMLVideoElement** The video element to toggle.
 
 #### `.isFullscreen({ el, video })`
 
 Returns whether fullscreen is active for an element, or any element if one is not specified.
 
-**el:HTMLElement** The element to check for fullscreen.
+**el:HTMLElement** The element to check for fullscreen. <br />
 **video:HTMLVideoElement** The video element to check for fullscreen.
 
 #### `.onChange(listener)`
